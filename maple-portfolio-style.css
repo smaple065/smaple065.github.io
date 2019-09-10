@@ -1,0 +1,52 @@
+title {
+	float: center;	
+}
+
+header {
+  padding: 30px;
+}
+
+body {
+	padding-bottom: 5%;
+	font-family: Roboto, Helvetica, sans-serif;
+	background-color: #a09eff;
+	color: #ffd1dc;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: #b9b8ff;
+  margin: 10px;
+  padding: 20px;
+  color: #ffebef;
+  width: 450px;
+}
+
+footer {
+  padding: 3%;
+  text-align: center;
+  left: 0 ; right: 0; bottom: 0;
+  height: 5%;
+}
+
+button {
+	background-color: #d1dcff;
+}
+
+button:hover {
+	background-color: #9eb5ff;
+}
+
+a
+{
+	color: #d1fff4;
+}
+
+a:hover
+{
+	color: #9effe8;
+}
