@@ -351,3 +351,12 @@ ul {
 .w3-button, .accent, .w3-bar-item:hover {background-color: #41cfcf;color: #101515;}
 .w3-button:hover {background-color: #279b9b;color: #70dbdb;}
 hr {border:0;border-top:2px solid #41cfcf;margin:20px 0}
+
+/* Force cards to full width on small screens */
+@media (max-width: 600px) {
+    .w3-third {
+        width: 100% !important;  /* Take full width */
+        float: none !important;  /* Cancel any float */
+        display: block !important; /* Ensure they stack */
+    }
+}
